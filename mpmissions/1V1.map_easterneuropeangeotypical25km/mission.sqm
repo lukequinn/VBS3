@@ -1,0 +1,2954 @@
+version=22;
+class Mission
+{
+	addOns[]=
+	{
+		"vbs2_people_au_adf_rifleman",
+		"vbs2_editor",
+		"vbs2_people_afg_afg_man",
+		"cabuildings",
+		"camisc"
+	};
+	addOnsAuto[]=
+	{
+		"vbs2_people_au_adf_rifleman",
+		"vbs2_editor",
+		"vbs2_people_afg_afg_man",
+		"cabuildings",
+		"camisc"
+	};
+	randomSeed=13601784;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2010;
+		month=9;
+		day=13;
+		hour=12;
+		minute=0;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	class Groups
+	{
+		items=27;
+		class Item0
+		{
+			side="WEST";
+			name="1-1-A-5";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10244.555,26.24745,6490.2168};
+					positionASL[]={10244.555,26.24745,6490.2168};
+					special="CAN_COLLIDE";
+					id=0;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_63";
+				};
+				class Item1
+				{
+					position[]={10248.679,26.18054,6490.043};
+					positionASL[]={10248.679,26.18054,6490.043};
+					special="CAN_COLLIDE";
+					id=1;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_64";
+				};
+				class Item2
+				{
+					position[]={10240.843,26.38072,6488.4312};
+					positionASL[]={10240.843,26.38072,6488.4312};
+					special="CAN_COLLIDE";
+					id=2;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_65";
+				};
+				class Item3
+				{
+					position[]={10252.792,26.10235,6489.8706};
+					positionASL[]={10252.792,26.10235,6489.8706};
+					special="CAN_COLLIDE";
+					id=3;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_66";
+				};
+				class Item4
+				{
+					position[]={10237.124,26.36153,6486.6475};
+					positionASL[]={10237.124,26.36153,6486.6475};
+					special="CAN_COLLIDE";
+					id=4;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_67";
+				};
+				class Item5
+				{
+					position[]={10256.917,26.01856,6489.6973};
+					positionASL[]={10256.917,26.01856,6489.6973};
+					special="CAN_COLLIDE";
+					id=5;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_68";
+				};
+				class Item6
+				{
+					position[]={10233.408,26.35339,6484.8555};
+					positionASL[]={10233.408,26.35339,6484.8555};
+					special="CAN_COLLIDE";
+					id=6;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_69";
+				};
+				class Item7
+				{
+					position[]={10261.039,25.96253,6489.5225};
+					positionASL[]={10261.039,25.96253,6489.5225};
+					special="CAN_COLLIDE";
+					id=7;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_70";
+				};
+				class Item8
+				{
+					position[]={10229.691,26.46645,6483.0742};
+					positionASL[]={10229.691,26.46645,6483.0742};
+					special="CAN_COLLIDE";
+					id=8;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_71";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			name="1-1-A-6";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10211.588,25.18228,6501.5728};
+					positionASL[]={10211.588,25.18228,6501.5728};
+					special="CAN_COLLIDE";
+					id=9;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_72";
+				};
+				class Item1
+				{
+					position[]={10215.703,25.29884,6501.3984};
+					positionASL[]={10215.703,25.29884,6501.3984};
+					special="CAN_COLLIDE";
+					id=10;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_73";
+				};
+				class Item2
+				{
+					position[]={10207.873,25.288971,6499.7856};
+					positionASL[]={10207.873,25.288971,6499.7856};
+					special="CAN_COLLIDE";
+					id=11;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_74";
+				};
+				class Item3
+				{
+					position[]={10219.823,25.433439,6501.2261};
+					positionASL[]={10219.823,25.433439,6501.2261};
+					special="CAN_COLLIDE";
+					id=12;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_75";
+				};
+				class Item4
+				{
+					position[]={10204.153,25.41581,6498};
+					positionASL[]={10204.153,25.41581,6498};
+					special="CAN_COLLIDE";
+					id=13;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_76";
+				};
+				class Item5
+				{
+					position[]={10223.947,25.537991,6501.0498};
+					positionASL[]={10223.947,25.537991,6501.0498};
+					special="CAN_COLLIDE";
+					id=14;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_77";
+				};
+				class Item6
+				{
+					position[]={10200.438,25.50585,6496.2153};
+					positionASL[]={10200.438,25.50585,6496.2153};
+					special="CAN_COLLIDE";
+					id=15;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_78";
+				};
+				class Item7
+				{
+					position[]={10228.063,25.63833,6500.8804};
+					positionASL[]={10228.063,25.63833,6500.8804};
+					special="CAN_COLLIDE";
+					id=16;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_79";
+				};
+				class Item8
+				{
+					position[]={10196.719,25.73686,6494.4287};
+					positionASL[]={10196.719,25.73686,6494.4287};
+					special="CAN_COLLIDE";
+					id=17;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_80";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			name="1-1-A-7";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10240.899,23.07909,6589.6704};
+					positionASL[]={10240.899,23.07909,6589.6704};
+					special="CAN_COLLIDE";
+					id=18;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					player="PLAY CDG";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_135";
+				};
+				class Item1
+				{
+					position[]={10245.188,23.057989,6589.6128};
+					positionASL[]={10245.188,23.057989,6589.6128};
+					special="CAN_COLLIDE";
+					id=19;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_136";
+				};
+				class Item2
+				{
+					position[]={10237.353,23.03141,6588.0015};
+					positionASL[]={10237.353,23.03141,6588.0015};
+					special="CAN_COLLIDE";
+					id=20;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_137";
+				};
+				class Item3
+				{
+					position[]={10249.307,23.033649,6589.4385};
+					positionASL[]={10249.307,23.033649,6589.4385};
+					special="CAN_COLLIDE";
+					id=21;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_138";
+				};
+				class Item4
+				{
+					position[]={10233.639,22.977131,6586.2148};
+					positionASL[]={10233.639,22.977131,6586.2148};
+					special="CAN_COLLIDE";
+					id=22;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_139";
+				};
+				class Item5
+				{
+					position[]={10253.424,23.008051,6589.2686};
+					positionASL[]={10253.424,23.008051,6589.2686};
+					special="CAN_COLLIDE";
+					id=23;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_140";
+				};
+				class Item6
+				{
+					position[]={10229.917,23.006781,6584.4258};
+					positionASL[]={10229.917,23.006781,6584.4258};
+					special="CAN_COLLIDE";
+					id=24;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_141";
+				};
+				class Item7
+				{
+					position[]={10257.552,22.988211,6589.0933};
+					positionASL[]={10257.552,22.988211,6589.0933};
+					special="CAN_COLLIDE";
+					id=25;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_142";
+				};
+				class Item8
+				{
+					position[]={10226.204,23.57321,6582.6436};
+					positionASL[]={10226.204,23.57321,6582.6436};
+					special="CAN_COLLIDE";
+					id=26;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_143";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			name="1-1-A-8";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10298.481,23.97677,6600.7876};
+					positionASL[]={10298.481,23.97677,6600.7876};
+					special="CAN_COLLIDE";
+					id=27;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_144";
+				};
+				class Item1
+				{
+					position[]={10302.599,24.116989,6600.6133};
+					positionASL[]={10302.599,24.116989,6600.6133};
+					special="CAN_COLLIDE";
+					id=28;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_145";
+				};
+				class Item2
+				{
+					position[]={10294.766,23.77417,6599.002};
+					positionASL[]={10294.766,23.77417,6599.002};
+					special="CAN_COLLIDE";
+					id=29;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_146";
+				};
+				class Item3
+				{
+					position[]={10306.724,24.855659,6600.439};
+					positionASL[]={10306.724,24.855659,6600.439};
+					special="CAN_COLLIDE";
+					id=30;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_147";
+				};
+				class Item4
+				{
+					position[]={10291.046,23.578671,6597.2144};
+					positionASL[]={10291.046,23.578671,6597.2144};
+					special="CAN_COLLIDE";
+					id=31;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_148";
+				};
+				class Item5
+				{
+					position[]={10310.838,25.03504,6600.2671};
+					positionASL[]={10310.838,25.03504,6600.2671};
+					special="CAN_COLLIDE";
+					id=32;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_149";
+				};
+				class Item6
+				{
+					position[]={10287.33,23.425011,6595.4302};
+					positionASL[]={10287.33,23.425011,6595.4302};
+					special="CAN_COLLIDE";
+					id=33;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_150";
+				};
+				class Item7
+				{
+					position[]={10314.964,25.17145,6600.0962};
+					positionASL[]={10314.964,25.17145,6600.0962};
+					special="CAN_COLLIDE";
+					id=34;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_151";
+				};
+				class Item8
+				{
+					position[]={10283.615,23.257919,6593.6421};
+					positionASL[]={10283.615,23.257919,6593.6421};
+					special="CAN_COLLIDE";
+					id=35;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_152";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			name="1-1-A-9";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10265.514,24.011669,6612.1416};
+					positionASL[]={10265.514,24.011669,6612.1416};
+					special="CAN_COLLIDE";
+					id=36;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_153";
+				};
+				class Item1
+				{
+					position[]={10269.63,24.06365,6611.9683};
+					positionASL[]={10269.63,24.06365,6611.9683};
+					special="CAN_COLLIDE";
+					id=37;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_154";
+				};
+				class Item2
+				{
+					position[]={10261.793,23.88574,6610.356};
+					positionASL[]={10261.793,23.88574,6610.356};
+					special="CAN_COLLIDE";
+					id=38;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_155";
+				};
+				class Item3
+				{
+					position[]={10273.749,24.211281,6611.7964};
+					positionASL[]={10273.749,24.211281,6611.7964};
+					special="CAN_COLLIDE";
+					id=39;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_156";
+				};
+				class Item4
+				{
+					position[]={10258.078,23.82691,6608.5718};
+					positionASL[]={10258.078,23.82691,6608.5718};
+					special="CAN_COLLIDE";
+					id=40;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_157";
+				};
+				class Item5
+				{
+					position[]={10277.867,24.36376,6611.6226};
+					positionASL[]={10277.867,24.36376,6611.6226};
+					special="CAN_COLLIDE";
+					id=41;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_158";
+				};
+				class Item6
+				{
+					position[]={10254.364,23.81587,6606.7832};
+					positionASL[]={10254.364,23.81587,6606.7832};
+					special="CAN_COLLIDE";
+					id=42;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_159";
+				};
+				class Item7
+				{
+					position[]={10281.991,24.38376,6611.4507};
+					positionASL[]={10281.991,24.38376,6611.4507};
+					special="CAN_COLLIDE";
+					id=43;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_160";
+				};
+				class Item8
+				{
+					position[]={10250.646,23.785629,6604.9995};
+					positionASL[]={10250.646,23.785629,6604.9995};
+					special="CAN_COLLIDE";
+					id=44;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_161";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			name="1-1-B-1";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={10274.091,22.454411,6578.1636};
+					positionASL[]={10274.091,22.454411,6578.1636};
+					special="CAN_COLLIDE";
+					id=45;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_189";
+				};
+				class Item1
+				{
+					position[]={10277.169,22.496149,6578.3545};
+					positionASL[]={10277.169,22.496149,6578.3545};
+					special="CAN_COLLIDE";
+					id=46;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_190";
+				};
+				class Item2
+				{
+					position[]={10269.332,22.41544,6576.7451};
+					positionASL[]={10269.332,22.41544,6576.7451};
+					special="CAN_COLLIDE";
+					id=47;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_191";
+				};
+				class Item3
+				{
+					position[]={10281.285,22.525249,6578.1836};
+					positionASL[]={10281.285,22.525249,6578.1836};
+					special="CAN_COLLIDE";
+					id=48;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_192";
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			name="1-1-B-2";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={10253.354,23.9811,6525.0366};
+					positionASL[]={10253.354,23.9811,6525.0366};
+					special="CAN_COLLIDE";
+					id=49;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_193";
+				};
+				class Item1
+				{
+					position[]={10257.473,23.912121,6524.8643};
+					positionASL[]={10257.473,23.912121,6524.8643};
+					special="CAN_COLLIDE";
+					id=50;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_194";
+				};
+				class Item2
+				{
+					position[]={10249.638,24.191891,6523.251};
+					positionASL[]={10249.638,24.191891,6523.251};
+					special="CAN_COLLIDE";
+					id=51;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_195";
+				};
+				class Item3
+				{
+					position[]={10261.592,23.82831,6524.6865};
+					positionASL[]={10261.592,23.82831,6524.6865};
+					special="CAN_COLLIDE";
+					id=52;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_196";
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			name="1-1-A-1";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10341.139,22.42037,6513.0879};
+					positionASL[]={10341.139,22.42037,6513.0879};
+					special="CAN_COLLIDE";
+					id=53;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					player="PLAY CDG";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_0";
+				};
+				class Item1
+				{
+					position[]={10345.422,22.45364,6513.0303};
+					positionASL[]={10345.422,22.45364,6513.0303};
+					special="CAN_COLLIDE";
+					id=76;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_1";
+				};
+				class Item2
+				{
+					position[]={10337.588,22.6168,6511.4175};
+					positionASL[]={10337.588,22.6168,6511.4175};
+					special="CAN_COLLIDE";
+					id=188;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_2";
+				};
+				class Item3
+				{
+					position[]={10349.547,22.47344,6512.8599};
+					positionASL[]={10349.547,22.47344,6512.8599};
+					special="CAN_COLLIDE";
+					id=189;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_3";
+				};
+				class Item4
+				{
+					position[]={10333.872,22.866329,6509.6318};
+					positionASL[]={10333.872,22.866329,6509.6318};
+					special="CAN_COLLIDE";
+					id=190;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_4";
+				};
+				class Item5
+				{
+					position[]={10353.666,22.471649,6512.6855};
+					positionASL[]={10353.666,22.471649,6512.6855};
+					special="CAN_COLLIDE";
+					id=191;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_5";
+				};
+				class Item6
+				{
+					position[]={10330.155,23.109529,6507.8467};
+					positionASL[]={10330.155,23.109529,6507.8467};
+					special="CAN_COLLIDE";
+					id=192;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_6";
+				};
+				class Item7
+				{
+					position[]={10357.785,22.47028,6512.5098};
+					positionASL[]={10357.785,22.47028,6512.5098};
+					special="CAN_COLLIDE";
+					id=193;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_7";
+				};
+				class Item8
+				{
+					position[]={10326.438,23.336571,6506.0645};
+					positionASL[]={10326.438,23.336571,6506.0645};
+					special="CAN_COLLIDE";
+					id=194;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_8";
+				};
+			};
+		};
+		class Item8
+		{
+			side="WEST";
+			name="1-1-B-3";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={10316.112,21.96249,6535.3491};
+					positionASL[]={10316.112,21.96249,6535.3491};
+					special="CAN_COLLIDE";
+					id=54;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_201";
+				};
+				class Item1
+				{
+					position[]={10320.227,21.85541,6535.1743};
+					positionASL[]={10320.227,21.85541,6535.1743};
+					special="CAN_COLLIDE";
+					id=55;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_202";
+				};
+				class Item2
+				{
+					position[]={10312.392,22.160391,6533.5615};
+					positionASL[]={10312.392,22.160391,6533.5615};
+					special="CAN_COLLIDE";
+					id=56;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_203";
+				};
+				class Item3
+				{
+					position[]={10324.347,21.69426,6535.0005};
+					positionASL[]={10324.347,21.69426,6535.0005};
+					special="CAN_COLLIDE";
+					id=57;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_204";
+				};
+			};
+		};
+		class Item9
+		{
+			side="WEST";
+			name="1-1-A-2";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10398.717,22.6702,6524.208};
+					positionASL[]={10398.717,22.6702,6524.208};
+					special="CAN_COLLIDE";
+					id=58;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_9";
+				};
+				class Item1
+				{
+					position[]={10402.843,22.85392,6524.0337};
+					positionASL[]={10402.843,22.85392,6524.0337};
+					special="CAN_COLLIDE";
+					id=68;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_10";
+				};
+				class Item2
+				{
+					position[]={10394.997,22.792839,6522.4204};
+					positionASL[]={10394.997,22.792839,6522.4204};
+					special="CAN_COLLIDE";
+					id=69;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_11";
+				};
+				class Item3
+				{
+					position[]={10406.958,23.12608,6523.8579};
+					positionASL[]={10406.958,23.12608,6523.8579};
+					special="CAN_COLLIDE";
+					id=70;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_12";
+				};
+				class Item4
+				{
+					position[]={10391.284,22.71044,6520.6353};
+					positionASL[]={10391.284,22.71044,6520.6353};
+					special="CAN_COLLIDE";
+					id=71;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_13";
+				};
+				class Item5
+				{
+					position[]={10411.076,23.302561,6523.6855};
+					positionASL[]={10411.076,23.302561,6523.6855};
+					special="CAN_COLLIDE";
+					id=72;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_14";
+				};
+				class Item6
+				{
+					position[]={10387.568,22.795691,6518.8486};
+					positionASL[]={10387.568,22.795691,6518.8486};
+					special="CAN_COLLIDE";
+					id=73;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_15";
+				};
+				class Item7
+				{
+					position[]={10415.198,23.415569,6523.5127};
+					positionASL[]={10415.198,23.415569,6523.5127};
+					special="CAN_COLLIDE";
+					id=74;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_16";
+				};
+				class Item8
+				{
+					position[]={10383.857,22.971861,6517.063};
+					positionASL[]={10383.857,22.971861,6517.063};
+					special="CAN_COLLIDE";
+					id=75;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_17";
+				};
+			};
+		};
+		class Item10
+		{
+			side="WEST";
+			name="1-1-B-4";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10279.615,22.49194,6553.228};
+					positionASL[]={10279.615,22.49194,6553.228};
+					special="CAN_COLLIDE";
+					id=59;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_209";
+				};
+				class Item1
+				{
+					position[]={10283.729,22.433599,6553.0576};
+					positionASL[]={10283.729,22.433599,6553.0576};
+					special="CAN_COLLIDE";
+					id=60;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_210";
+				};
+				class Item2
+				{
+					position[]={10275.888,22.538759,6551.4434};
+					positionASL[]={10275.888,22.538759,6551.4434};
+					special="CAN_COLLIDE";
+					id=61;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_211";
+				};
+				class Item3
+				{
+					position[]={10287.848,22.373911,6552.8828};
+					positionASL[]={10287.848,22.373911,6552.8828};
+					special="CAN_COLLIDE";
+					id=62;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_212";
+				};
+				class Item4
+				{
+					position[]={10272.178,22.51819,6549.6558};
+					positionASL[]={10272.178,22.51819,6549.6558};
+					special="CAN_COLLIDE";
+					id=63;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_213";
+				};
+				class Item5
+				{
+					position[]={10291.969,22.277081,6552.707};
+					positionASL[]={10291.969,22.277081,6552.707};
+					special="CAN_COLLIDE";
+					id=64;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_214";
+				};
+				class Item6
+				{
+					position[]={10268.464,22.61108,6547.8711};
+					positionASL[]={10268.464,22.61108,6547.8711};
+					special="CAN_COLLIDE";
+					id=65;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_215";
+				};
+				class Item7
+				{
+					position[]={10296.09,22.148239,6552.5347};
+					positionASL[]={10296.09,22.148239,6552.5347};
+					special="CAN_COLLIDE";
+					id=66;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_216";
+				};
+				class Item8
+				{
+					position[]={10264.745,22.750509,6546.0864};
+					positionASL[]={10264.745,22.750509,6546.0864};
+					special="CAN_COLLIDE";
+					id=67;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_217";
+				};
+			};
+		};
+		class Item11
+		{
+			side="WEST";
+			name="1-1-A-3";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10365.746,21.09659,6535.5649};
+					positionASL[]={10365.746,21.09659,6535.5649};
+					special="CAN_COLLIDE";
+					id=77;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_18";
+				};
+				class Item1
+				{
+					position[]={10369.866,21.15567,6535.3892};
+					positionASL[]={10369.866,21.15567,6535.3892};
+					special="CAN_COLLIDE";
+					id=78;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_19";
+				};
+				class Item2
+				{
+					position[]={10362.031,21.077379,6533.7783};
+					positionASL[]={10362.031,21.077379,6533.7783};
+					special="CAN_COLLIDE";
+					id=79;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_20";
+				};
+				class Item3
+				{
+					position[]={10373.989,21.39266,6535.2173};
+					positionASL[]={10373.989,21.39266,6535.2173};
+					special="CAN_COLLIDE";
+					id=182;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_21";
+				};
+				class Item4
+				{
+					position[]={10358.315,21.10041,6531.9873};
+					positionASL[]={10358.315,21.10041,6531.9873};
+					special="CAN_COLLIDE";
+					id=183;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_22";
+				};
+				class Item5
+				{
+					position[]={10378.109,21.41765,6535.0415};
+					positionASL[]={10378.109,21.41765,6535.0415};
+					special="CAN_COLLIDE";
+					id=184;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_23";
+				};
+				class Item6
+				{
+					position[]={10354.601,21.18922,6530.2041};
+					positionASL[]={10354.601,21.18922,6530.2041};
+					special="CAN_COLLIDE";
+					id=185;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_24";
+				};
+				class Item7
+				{
+					position[]={10382.225,21.462231,6534.8662};
+					positionASL[]={10382.225,21.462231,6534.8662};
+					special="CAN_COLLIDE";
+					id=186;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_25";
+				};
+				class Item8
+				{
+					position[]={10350.886,21.346939,6528.4209};
+					positionASL[]={10350.886,21.346939,6528.4209};
+					special="CAN_COLLIDE";
+					id=187;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_26";
+				};
+			};
+		};
+		class Item12
+		{
+			side="WEST";
+			name="1-1-B-7";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10574.917,21.63027,5822.7295};
+					positionASL[]={10574.917,21.63027,5822.7295};
+					special="CAN_COLLIDE";
+					id=80;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_678";
+				};
+				class Item1
+				{
+					position[]={10570.801,21.619909,5822.9033};
+					positionASL[]={10570.801,21.619909,5822.9033};
+					special="CAN_COLLIDE";
+					id=81;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_679";
+				};
+				class Item2
+				{
+					position[]={10578.635,21.697269,5824.5254};
+					positionASL[]={10578.635,21.697269,5824.5254};
+					special="CAN_COLLIDE";
+					id=82;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_680";
+				};
+				class Item3
+				{
+					position[]={10566.678,21.62455,5823.0664};
+					positionASL[]={10566.678,21.62455,5823.0664};
+					special="CAN_COLLIDE";
+					id=83;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_681";
+				};
+				class Item4
+				{
+					position[]={10582.343,21.800541,5826.3218};
+					positionASL[]={10582.343,21.800541,5826.3218};
+					special="CAN_COLLIDE";
+					id=84;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_682";
+				};
+				class Item5
+				{
+					position[]={10562.549,21.864441,5823.2373};
+					positionASL[]={10562.549,21.864441,5823.2373};
+					special="CAN_COLLIDE";
+					id=85;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_683";
+				};
+				class Item6
+				{
+					position[]={10586.058,21.978069,5828.1084};
+					positionASL[]={10586.058,21.978069,5828.1084};
+					special="CAN_COLLIDE";
+					id=86;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_684";
+				};
+				class Item7
+				{
+					position[]={10558.443,22.06724,5823.4058};
+					positionASL[]={10558.443,22.06724,5823.4058};
+					special="CAN_COLLIDE";
+					id=87;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_685";
+				};
+				class Item8
+				{
+					position[]={10589.767,22.15205,5829.9004};
+					positionASL[]={10589.767,22.15205,5829.9004};
+					special="CAN_COLLIDE";
+					id=88;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_686";
+				};
+			};
+		};
+		class Item13
+		{
+			side="WEST";
+			name="1-1-B-8";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10753.604,26.943541,5879.459};
+					positionASL[]={10753.604,26.943541,5879.459};
+					special="CAN_COLLIDE";
+					id=89;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					player="PLAY CDG";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_687";
+				};
+				class Item1
+				{
+					position[]={10749.315,26.298639,5879.5098};
+					positionASL[]={10749.315,26.298639,5879.5098};
+					special="CAN_COLLIDE";
+					id=90;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_688";
+				};
+				class Item2
+				{
+					position[]={10757.153,27.4457,5881.1323};
+					positionASL[]={10757.153,27.4457,5881.1323};
+					special="CAN_COLLIDE";
+					id=91;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_689";
+				};
+				class Item3
+				{
+					position[]={10745.2,26.084379,5879.6772};
+					positionASL[]={10745.2,26.084379,5879.6772};
+					special="CAN_COLLIDE";
+					id=92;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_690";
+				};
+				class Item4
+				{
+					position[]={10760.867,27.776489,5882.9263};
+					positionASL[]={10760.867,27.776489,5882.9263};
+					special="CAN_COLLIDE";
+					id=93;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_691";
+				};
+				class Item5
+				{
+					position[]={10741.083,26.11445,5879.8418};
+					positionASL[]={10741.083,26.11445,5879.8418};
+					special="CAN_COLLIDE";
+					id=94;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_692";
+				};
+				class Item6
+				{
+					position[]={10764.585,28.130171,5884.7144};
+					positionASL[]={10764.585,28.130171,5884.7144};
+					special="CAN_COLLIDE";
+					id=95;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_693";
+				};
+				class Item7
+				{
+					position[]={10736.96,26.2094,5880.0117};
+					positionASL[]={10736.96,26.2094,5880.0117};
+					special="CAN_COLLIDE";
+					id=96;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_694";
+				};
+				class Item8
+				{
+					position[]={10768.29,28.51063,5886.5024};
+					positionASL[]={10768.29,28.51063,5886.5024};
+					special="CAN_COLLIDE";
+					id=97;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_695";
+				};
+			};
+		};
+		class Item14
+		{
+			side="WEST";
+			name="1-1-B-9";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10696.042,25.86257,5868.2578};
+					positionASL[]={10696.042,25.86257,5868.2578};
+					special="CAN_COLLIDE";
+					id=98;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_696";
+				};
+				class Item1
+				{
+					position[]={10691.917,25.79566,5868.4224};
+					positionASL[]={10691.917,25.79566,5868.4224};
+					special="CAN_COLLIDE";
+					id=99;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_697";
+				};
+				class Item2
+				{
+					position[]={10699.753,25.99584,5870.0479};
+					positionASL[]={10699.753,25.99584,5870.0479};
+					special="CAN_COLLIDE";
+					id=100;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_698";
+				};
+				class Item3
+				{
+					position[]={10687.807,25.71747,5868.5889};
+					positionASL[]={10687.807,25.71747,5868.5889};
+					special="CAN_COLLIDE";
+					id=101;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_699";
+				};
+				class Item4
+				{
+					position[]={10703.464,25.97665,5871.8359};
+					positionASL[]={10703.464,25.97665,5871.8359};
+					special="CAN_COLLIDE";
+					id=102;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_700";
+				};
+				class Item5
+				{
+					position[]={10683.68,25.63368,5868.7583};
+					positionASL[]={10683.68,25.63368,5868.7583};
+					special="CAN_COLLIDE";
+					id=103;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_701";
+				};
+				class Item6
+				{
+					position[]={10707.18,25.96851,5873.6338};
+					positionASL[]={10707.18,25.96851,5873.6338};
+					special="CAN_COLLIDE";
+					id=104;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_702";
+				};
+				class Item7
+				{
+					position[]={10679.56,25.57765,5868.9229};
+					positionASL[]={10679.56,25.57765,5868.9229};
+					special="CAN_COLLIDE";
+					id=105;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_703";
+				};
+				class Item8
+				{
+					position[]={10710.898,26.08157,5875.4243};
+					positionASL[]={10710.898,26.08157,5875.4243};
+					special="CAN_COLLIDE";
+					id=106;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_704";
+				};
+			};
+		};
+		class Item15
+		{
+			side="WEST";
+			name="1-1-C-1";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10729.029,18.23641,5856.9463};
+					positionASL[]={10729.029,18.23641,5856.9463};
+					special="CAN_COLLIDE";
+					id=107;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_705";
+				};
+				class Item1
+				{
+					position[]={10724.912,18.35886,5857.1201};
+					positionASL[]={10724.912,18.35886,5857.1201};
+					special="CAN_COLLIDE";
+					id=108;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_706";
+				};
+				class Item2
+				{
+					position[]={10732.738,18.16749,5858.7417};
+					positionASL[]={10732.738,18.16749,5858.7417};
+					special="CAN_COLLIDE";
+					id=109;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_707";
+				};
+				class Item3
+				{
+					position[]={10720.792,18.49081,5857.2813};
+					positionASL[]={10720.792,18.49081,5857.2813};
+					special="CAN_COLLIDE";
+					id=110;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_708";
+				};
+				class Item4
+				{
+					position[]={10736.459,18.069349,5860.5322};
+					positionASL[]={10736.459,18.069349,5860.5322};
+					special="CAN_COLLIDE";
+					id=111;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_709";
+				};
+				class Item5
+				{
+					position[]={10716.667,18.689899,5857.4536};
+					positionASL[]={10716.667,18.689899,5857.4536};
+					special="CAN_COLLIDE";
+					id=112;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_710";
+				};
+				class Item6
+				{
+					position[]={10740.171,17.992411,5862.3218};
+					positionASL[]={10740.171,17.992411,5862.3218};
+					special="CAN_COLLIDE";
+					id=113;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_711";
+				};
+				class Item7
+				{
+					position[]={10712.554,25.25345,5857.6191};
+					positionASL[]={10712.554,25.25345,5857.6191};
+					special="CAN_COLLIDE";
+					id=114;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_712";
+				};
+				class Item8
+				{
+					position[]={10743.888,17.98267,5864.1123};
+					positionASL[]={10743.888,17.98267,5864.1123};
+					special="CAN_COLLIDE";
+					id=115;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_713";
+				};
+			};
+		};
+		class Item16
+		{
+			side="WEST";
+			name="1-1-C-2";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10699.843,19.03063,5768.8071};
+					positionASL[]={10699.843,19.03063,5768.8071};
+					special="CAN_COLLIDE";
+					id=116;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					player="PLAY CDG";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_714";
+				};
+				class Item1
+				{
+					position[]={10695.557,19.0411,5768.8599};
+					positionASL[]={10695.557,19.0411,5768.8599};
+					special="CAN_COLLIDE";
+					id=117;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_715";
+				};
+				class Item2
+				{
+					position[]={10703.392,18.853121,5770.478};
+					positionASL[]={10703.392,18.853121,5770.478};
+					special="CAN_COLLIDE";
+					id=118;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_716";
+				};
+				class Item3
+				{
+					position[]={10691.436,19.05751,5769.0259};
+					positionASL[]={10691.436,19.05751,5769.0259};
+					special="CAN_COLLIDE";
+					id=119;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_717";
+				};
+				class Item4
+				{
+					position[]={10707.103,18.58077,5772.2773};
+					positionASL[]={10707.103,18.58077,5772.2773};
+					special="CAN_COLLIDE";
+					id=120;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_718";
+				};
+				class Item5
+				{
+					position[]={10687.317,19.082991,5769.1914};
+					positionASL[]={10687.317,19.082991,5769.1914};
+					special="CAN_COLLIDE";
+					id=121;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_719";
+				};
+				class Item6
+				{
+					position[]={10710.817,18.35346,5774.0703};
+					positionASL[]={10710.817,18.35346,5774.0703};
+					special="CAN_COLLIDE";
+					id=122;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_720";
+				};
+				class Item7
+				{
+					position[]={10683.188,19.081011,5769.3584};
+					positionASL[]={10683.188,19.081011,5769.3584};
+					special="CAN_COLLIDE";
+					id=123;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_721";
+				};
+				class Item8
+				{
+					position[]={10714.529,18.132669,5775.855};
+					positionASL[]={10714.529,18.132669,5775.855};
+					special="CAN_COLLIDE";
+					id=124;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_722";
+				};
+			};
+		};
+		class Item17
+		{
+			side="WEST";
+			name="1-1-C-3";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10642.278,19.48595,5757.6069};
+					positionASL[]={10642.278,19.48595,5757.6069};
+					special="CAN_COLLIDE";
+					id=125;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_723";
+				};
+				class Item1
+				{
+					position[]={10638.16,19.76232,5757.7769};
+					positionASL[]={10638.16,19.76232,5757.7769};
+					special="CAN_COLLIDE";
+					id=126;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_724";
+				};
+				class Item2
+				{
+					position[]={10645.989,19.386999,5759.3965};
+					positionASL[]={10645.989,19.386999,5759.3965};
+					special="CAN_COLLIDE";
+					id=127;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_725";
+				};
+				class Item3
+				{
+					position[]={10634.033,20.02264,5757.9414};
+					positionASL[]={10634.033,20.02264,5757.9414};
+					special="CAN_COLLIDE";
+					id=128;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_726";
+				};
+				class Item4
+				{
+					position[]={10649.702,19.300591,5761.1885};
+					positionASL[]={10649.702,19.300591,5761.1885};
+					special="CAN_COLLIDE";
+					id=129;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_727";
+				};
+				class Item5
+				{
+					position[]={10629.918,20.268579,5758.1108};
+					positionASL[]={10629.918,20.268579,5758.1108};
+					special="CAN_COLLIDE";
+					id=130;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_728";
+				};
+				class Item6
+				{
+					position[]={10653.419,19.206711,5762.981};
+					positionASL[]={10653.419,19.206711,5762.981};
+					special="CAN_COLLIDE";
+					id=131;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAYER COMMANDER";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_729";
+				};
+				class Item7
+				{
+					position[]={10625.794,20.5147,5758.2739};
+					positionASL[]={10625.794,20.5147,5758.2739};
+					special="CAN_COLLIDE";
+					id=132;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_730";
+				};
+				class Item8
+				{
+					position[]={10657.135,19.13566,5764.7769};
+					positionASL[]={10657.135,19.13566,5764.7769};
+					special="CAN_COLLIDE";
+					id=133;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_731";
+				};
+			};
+		};
+		class Item18
+		{
+			side="WEST";
+			name="1-1-C-4";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10675.258,18.061689,5746.3018};
+					positionASL[]={10675.258,18.061689,5746.3018};
+					special="CAN_COLLIDE";
+					id=134;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_732";
+				};
+				class Item1
+				{
+					position[]={10671.146,18.194059,5746.4692};
+					positionASL[]={10671.146,18.194059,5746.4692};
+					special="CAN_COLLIDE";
+					id=135;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_733";
+				};
+				class Item2
+				{
+					position[]={10678.979,18.042009,5748.0908};
+					positionASL[]={10678.979,18.042009,5748.0908};
+					special="CAN_COLLIDE";
+					id=136;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_734";
+				};
+				class Item3
+				{
+					position[]={10667.029,18.330919,5746.6348};
+					positionASL[]={10667.029,18.330919,5746.6348};
+					special="CAN_COLLIDE";
+					id=137;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_735";
+				};
+				class Item4
+				{
+					position[]={10682.696,18.070681,5749.8799};
+					positionASL[]={10682.696,18.070681,5749.8799};
+					special="CAN_COLLIDE";
+					id=138;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_736";
+				};
+				class Item5
+				{
+					position[]={10662.91,18.45109,5746.8042};
+					positionASL[]={10662.91,18.45109,5746.8042};
+					special="CAN_COLLIDE";
+					id=139;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_737";
+				};
+				class Item6
+				{
+					position[]={10686.405,18.161421,5751.6768};
+					positionASL[]={10686.405,18.161421,5751.6768};
+					special="CAN_COLLIDE";
+					id=140;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_738";
+				};
+				class Item7
+				{
+					position[]={10658.784,18.52235,5746.9644};
+					positionASL[]={10658.784,18.52235,5746.9644};
+					special="CAN_COLLIDE";
+					id=141;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_739";
+				};
+				class Item8
+				{
+					position[]={10690.124,18.31311,5753.4658};
+					positionASL[]={10690.124,18.31311,5753.4658};
+					special="CAN_COLLIDE";
+					id=142;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_740";
+				};
+			};
+		};
+		class Item19
+		{
+			side="WEST";
+			name="1-1-C-5";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={10666.639,20.07266,5780.2671};
+					positionASL[]={10666.639,20.07266,5780.2671};
+					special="CAN_COLLIDE";
+					id=143;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_741";
+				};
+				class Item1
+				{
+					position[]={10663.558,20.05744,5780.0718};
+					positionASL[]={10663.558,20.05744,5780.0718};
+					special="CAN_COLLIDE";
+					id=144;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_742";
+				};
+				class Item2
+				{
+					position[]={10671.39,20.091999,5781.6899};
+					positionASL[]={10671.39,20.091999,5781.6899};
+					special="CAN_COLLIDE";
+					id=145;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_743";
+				};
+				class Item3
+				{
+					position[]={10659.443,20.070049,5780.2363};
+					positionASL[]={10659.443,20.070049,5780.2363};
+					special="CAN_COLLIDE";
+					id=146;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_744";
+				};
+			};
+		};
+		class Item20
+		{
+			side="WEST";
+			name="1-1-C-6";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={10687.291,20.18622,5833.4204};
+					positionASL[]={10687.291,20.18622,5833.4204};
+					special="CAN_COLLIDE";
+					id=147;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_745";
+				};
+				class Item1
+				{
+					position[]={10683.175,20.4655,5833.585};
+					positionASL[]={10683.175,20.4655,5833.585};
+					special="CAN_COLLIDE";
+					id=148;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_746";
+				};
+				class Item2
+				{
+					position[]={10691.007,20.054411,5835.2134};
+					positionASL[]={10691.007,20.054411,5835.2134};
+					special="CAN_COLLIDE";
+					id=149;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_747";
+				};
+				class Item3
+				{
+					position[]={10679.057,23.44343,5833.7607};
+					positionASL[]={10679.057,23.44343,5833.7607};
+					special="CAN_COLLIDE";
+					id=150;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_748";
+				};
+			};
+		};
+		class Item21
+		{
+			side="WEST";
+			name="1-1-B-5";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10599.484,23.574841,5845.2422};
+					positionASL[]={10599.484,23.574841,5845.2422};
+					special="CAN_COLLIDE";
+					id=151;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					player="PLAY CDG";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_749";
+				};
+				class Item1
+				{
+					position[]={10595.212,23.282869,5845.2949};
+					positionASL[]={10595.212,23.282869,5845.2949};
+					special="CAN_COLLIDE";
+					id=174;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_772";
+				};
+				class Item2
+				{
+					position[]={10603.045,24.024139,5846.9219};
+					positionASL[]={10603.045,24.024139,5846.9219};
+					special="CAN_COLLIDE";
+					id=175;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_773";
+				};
+				class Item3
+				{
+					position[]={10591.085,23.20059,5845.4614};
+					positionASL[]={10591.085,23.20059,5845.4614};
+					special="CAN_COLLIDE";
+					id=176;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_774";
+				};
+				class Item4
+				{
+					position[]={10606.756,24.14114,5848.708};
+					positionASL[]={10606.756,24.14114,5848.708};
+					special="CAN_COLLIDE";
+					id=177;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_775";
+				};
+				class Item5
+				{
+					position[]={10586.964,23.156811,5845.6299};
+					positionASL[]={10586.964,23.156811,5845.6299};
+					special="CAN_COLLIDE";
+					id=178;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_776";
+				};
+				class Item6
+				{
+					position[]={10610.471,24.261141,5850.5034};
+					positionASL[]={10610.471,24.261141,5850.5034};
+					special="CAN_COLLIDE";
+					id=179;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_777";
+				};
+				class Item7
+				{
+					position[]={10582.846,23.124741,5845.8008};
+					positionASL[]={10582.846,23.124741,5845.8008};
+					special="CAN_COLLIDE";
+					id=180;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_778";
+				};
+				class Item8
+				{
+					position[]={10614.185,24.39942,5852.2881};
+					positionASL[]={10614.185,24.39942,5852.2881};
+					special="CAN_COLLIDE";
+					id=181;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_779";
+				};
+			};
+		};
+		class Item22
+		{
+			side="WEST";
+			name="1-1-C-7";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={10624.555,22.73918,5823.019};
+					positionASL[]={10624.555,22.73918,5823.019};
+					special="CAN_COLLIDE";
+					id=152;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_750";
+				};
+				class Item1
+				{
+					position[]={10620.434,22.685459,5823.1855};
+					positionASL[]={10620.434,22.685459,5823.1855};
+					special="CAN_COLLIDE";
+					id=153;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_751";
+				};
+				class Item2
+				{
+					position[]={10628.272,22.83584,5824.8125};
+					positionASL[]={10628.272,22.83584,5824.8125};
+					special="CAN_COLLIDE";
+					id=154;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_752";
+				};
+				class Item3
+				{
+					position[]={10616.314,22.483509,5823.3569};
+					positionASL[]={10616.314,22.483509,5823.3569};
+					special="CAN_COLLIDE";
+					id=155;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_753";
+				};
+			};
+		};
+		class Item23
+		{
+			side="WEST";
+			name="1-1-B-6";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10541.932,23.199329,5834.0386};
+					positionASL[]={10541.932,23.199329,5834.0386};
+					special="CAN_COLLIDE";
+					id=156;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_754";
+				};
+				class Item1
+				{
+					position[]={10537.799,23.349079,5834.21};
+					positionASL[]={10537.799,23.349079,5834.21};
+					special="CAN_COLLIDE";
+					id=166;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_764";
+				};
+				class Item2
+				{
+					position[]={10545.648,23.088289,5835.8345};
+					positionASL[]={10545.648,23.088289,5835.8345};
+					special="CAN_COLLIDE";
+					id=167;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_765";
+				};
+				class Item3
+				{
+					position[]={10533.69,23.404169,5834.3813};
+					positionASL[]={10533.69,23.404169,5834.3813};
+					special="CAN_COLLIDE";
+					id=168;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_766";
+				};
+				class Item4
+				{
+					position[]={10549.36,23.137951,5837.6245};
+					positionASL[]={10549.36,23.137951,5837.6245};
+					special="CAN_COLLIDE";
+					id=169;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_767";
+				};
+				class Item5
+				{
+					position[]={10529.568,23.43297,5834.5435};
+					positionASL[]={10529.568,23.43297,5834.5435};
+					special="CAN_COLLIDE";
+					id=170;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_768";
+				};
+				class Item6
+				{
+					position[]={10553.071,23.154921,5839.418};
+					positionASL[]={10553.071,23.154921,5839.418};
+					special="CAN_COLLIDE";
+					id=171;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_769";
+				};
+				class Item7
+				{
+					position[]={10525.449,23.357731,5834.7144};
+					positionASL[]={10525.449,23.357731,5834.7144};
+					special="CAN_COLLIDE";
+					id=172;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_770";
+				};
+				class Item8
+				{
+					position[]={10556.779,23.13542,5841.2051};
+					positionASL[]={10556.779,23.13542,5841.2051};
+					special="CAN_COLLIDE";
+					id=173;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_771";
+				};
+			};
+		};
+		class Item24
+		{
+			side="WEST";
+			name="1-1-C-8";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10661.071,21.24469,5805.1919};
+					positionASL[]={10661.071,21.24469,5805.1919};
+					special="CAN_COLLIDE";
+					id=157;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_755";
+				};
+				class Item1
+				{
+					position[]={10656.96,21.262039,5805.3584};
+					positionASL[]={10656.96,21.262039,5805.3584};
+					special="CAN_COLLIDE";
+					id=158;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_756";
+				};
+				class Item2
+				{
+					position[]={10664.798,21.183041,5806.9834};
+					positionASL[]={10664.798,21.183041,5806.9834};
+					special="CAN_COLLIDE";
+					id=159;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_757";
+				};
+				class Item3
+				{
+					position[]={10652.843,21.229,5805.5269};
+					positionASL[]={10652.843,21.229,5805.5269};
+					special="CAN_COLLIDE";
+					id=160;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_758";
+				};
+				class Item4
+				{
+					position[]={10668.507,21.13504,5808.7749};
+					positionASL[]={10668.507,21.13504,5808.7749};
+					special="CAN_COLLIDE";
+					id=161;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_759";
+				};
+				class Item5
+				{
+					position[]={10648.72,21.244841,5805.6973};
+					positionASL[]={10648.72,21.244841,5805.6973};
+					special="CAN_COLLIDE";
+					id=162;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_760";
+				};
+				class Item6
+				{
+					position[]={10672.218,21.013241,5810.5669};
+					positionASL[]={10672.218,21.013241,5810.5669};
+					special="CAN_COLLIDE";
+					id=163;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_761";
+				};
+				class Item7
+				{
+					position[]={10644.598,21.39642,5805.8643};
+					positionASL[]={10644.598,21.39642,5805.8643};
+					special="CAN_COLLIDE";
+					id=164;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_762";
+				};
+				class Item8
+				{
+					position[]={10675.937,20.830879,5812.3579};
+					positionASL[]={10675.937,20.830879,5812.3579};
+					special="CAN_COLLIDE";
+					id=165;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_763";
+				};
+			};
+		};
+		class Item25
+		{
+			side="WEST";
+			name="1-1-A-4";
+			class Vehicles
+			{
+				items=9;
+				class Item0
+				{
+					position[]={10186.975,27.328421,6479.0967};
+					positionASL[]={10186.975,27.328421,6479.0967};
+					special="CAN_COLLIDE";
+					id=195;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Officer_W_F88A2_Elc";
+					player="PLAY CDG";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_54";
+				};
+				class Item1
+				{
+					position[]={10191.266,26.683519,6479.0405};
+					positionASL[]={10191.266,26.683519,6479.0405};
+					special="CAN_COLLIDE";
+					id=200;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_55";
+				};
+				class Item2
+				{
+					position[]={10183.426,27.83058,6477.4292};
+					positionASL[]={10183.426,27.83058,6477.4292};
+					special="CAN_COLLIDE";
+					id=201;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_56";
+				};
+				class Item3
+				{
+					position[]={10195.382,26.469259,6478.8672};
+					positionASL[]={10195.382,26.469259,6478.8672};
+					special="CAN_COLLIDE";
+					id=202;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_57";
+				};
+				class Item4
+				{
+					position[]={10179.709,28.161369,6475.6411};
+					positionASL[]={10179.709,28.161369,6475.6411};
+					special="CAN_COLLIDE";
+					id=203;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_58";
+				};
+				class Item5
+				{
+					position[]={10199.498,26.499331,6478.6973};
+					positionASL[]={10199.498,26.499331,6478.6973};
+					special="CAN_COLLIDE";
+					id=204;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Grenadier_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_59";
+				};
+				class Item6
+				{
+					position[]={10175.988,28.515051,6473.8584};
+					positionASL[]={10175.988,28.515051,6473.8584};
+					special="CAN_COLLIDE";
+					id=205;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_W_LAW";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_60";
+				};
+				class Item7
+				{
+					position[]={10203.622,26.59428,6478.5215};
+					positionASL[]={10203.622,26.59428,6478.5215};
+					special="CAN_COLLIDE";
+					id=206;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Mgunner_W_F89";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_61";
+				};
+				class Item8
+				{
+					position[]={10172.28,28.89551,6472.0713};
+					positionASL[]={10172.28,28.89551,6472.0713};
+					special="CAN_COLLIDE";
+					id=207;
+					side="WEST";
+					vehicle="VBS2_AU_Army_Rifleman_W_F88A1";
+					player="PLAY CDG";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_62";
+				};
+			};
+		};
+		class Item26
+		{
+			side="WEST";
+			name="1-1-A-1";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={10356.893,30.58824,6140.6504};
+					positionASL[]={10356.893,30.58824,6140.6504};
+					special="CAN_COLLIDE";
+					id=196;
+					side="WEST";
+					vehicle="vbs2_af_taliban_ak74gla";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_780";
+				};
+				class Item1
+				{
+					position[]={10360.893,30.221029,6139.6504};
+					positionASL[]={10360.893,30.221029,6139.6504};
+					special="CAN_COLLIDE";
+					id=197;
+					side="WEST";
+					vehicle="vbs2_af_taliban_rpk74";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_781";
+				};
+				class Item2
+				{
+					position[]={10352.893,30.928619,6139.6504};
+					positionASL[]={10352.893,30.928619,6139.6504};
+					special="CAN_COLLIDE";
+					id=198;
+					side="WEST";
+					vehicle="vbs2_af_taliban_akm";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_782";
+				};
+				class Item3
+				{
+					position[]={10364.893,30.151381,6138.6504};
+					positionASL[]={10364.893,30.151381,6138.6504};
+					special="CAN_COLLIDE";
+					id=199;
+					side="WEST";
+					vehicle="vbs2_af_taliban_akm";
+					rankName="PRIVATE";
+					skill=0.60000002;
+					text="unit_783";
+				};
+			};
+		};
+	};
+	Biotope="";
+	BiotopeFile="";
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+	TerrainModifs[]={0,0,0,0,0};
+	RiverModifs[]={0,0,0,0,0};
+	SnowModifs[]={0,0,0,0,0};
+	SeastatesRandomSeed=-1804976994;
+};
+class Intro
+{
+	randomSeed=8717379;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2010;
+		month=9;
+		day=13;
+		hour=12;
+		minute=0;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	Biotope="";
+	BiotopeFile="";
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+	TerrainModifs[]={0,0,0,0,0};
+	RiverModifs[]={0,0,0,0,0};
+	SnowModifs[]={0,0,0,0,0};
+	SeastatesRandomSeed=-1804976994;
+};
+class OutroWin
+{
+	randomSeed=13306740;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2010;
+		month=9;
+		day=13;
+		hour=12;
+		minute=0;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	Biotope="";
+	BiotopeFile="";
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+	TerrainModifs[]={0,0,0,0,0};
+	RiverModifs[]={0,0,0,0,0};
+	SnowModifs[]={0,0,0,0,0};
+	SeastatesRandomSeed=-1804976994;
+};
+class OutroLoose
+{
+	randomSeed=5408498;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2010;
+		month=9;
+		day=13;
+		hour=12;
+		minute=0;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	Biotope="";
+	BiotopeFile="";
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+	TerrainModifs[]={0,0,0,0,0};
+	RiverModifs[]={0,0,0,0,0};
+	SnowModifs[]={0,0,0,0,0};
+	SeastatesRandomSeed=-1804976994;
+};

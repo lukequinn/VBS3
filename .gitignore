@@ -45,3 +45,24 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# =========================
+# IGNORED BY LUKE
+# =========================
+AAR
+Config
+map_easterneuropeangeotypical25km_2016_6_28_16_40_47
+missions
+Saved
+Screen
+UserSaved
+Luke.vars.VBS3Profile
+Luke.VBS3Profile
+map_easterneuropeangeotypical25km_2016_6_28_16_50_31.emf
+map_easterneuropeangeotypical25km_2016_6_28_16_52_39.lbt
+ScriptDebugger.cfg
+VBS3.cfg
+mpmissions/S*
+mpmissions/T*
+mpmissions/__tmpPreviewDir
+mpmissions/A*
